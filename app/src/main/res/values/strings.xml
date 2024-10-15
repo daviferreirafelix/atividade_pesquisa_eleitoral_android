@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PesquisaEleitoral</string>
+    <string name="content_description">TRE imagem</string>
+    <string name="Nome">Nome</string>
+    <string name="Titulo">Título</string>
+    <string name="Zona">Zona</string>
+    <string name="Secao">Seção</string>
+    <string name="Cidade">Cidade</string>
+    <string name="Estados">Estados</string>
+    <string name="Vereador">Vereador</string>
+    <string name="Prefeito">Prefeito</string>
+    <string name="enviar">Enviar</string>
+    <string name="Partido">Qual seu partido favorito?</string>
+</resources>

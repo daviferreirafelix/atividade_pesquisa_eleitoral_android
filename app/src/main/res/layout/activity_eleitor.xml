@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EleitorActivity">
+
+    <ImageView
+        android:id="@+id/imageViewMain"
+        android:layout_width="111dp"
+        android:layout_height="81dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/content_description"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tre" />
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="27dp"
+        android:text="@string/Nome"
+        app:layout_constraintBottom_toTopOf="@+id/textViewTitulo"
+        app:layout_constraintEnd_toStartOf="@+id/nomeViewEleitorActivity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nomeViewEleitorActivity"
+        android:layout_width="168dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="91dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewNome"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewMain" />
+
+    <TextView
+        android:id="@+id/tituloViewEleitorActivity"
+        android:layout_width="168dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewTitulo"
+        app:layout_constraintTop_toBottomOf="@+id/nomeViewEleitorActivity" />
+
+    <TextView
+        android:id="@+id/zonaViewEleitorActivity"
+        android:layout_width="168dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewZona"
+        app:layout_constraintTop_toBottomOf="@+id/tituloViewEleitorActivity" />
+
+    <TextView
+        android:id="@+id/secaoViewEleitorActivity"
+        android:layout_width="168dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewSecao"
+        app:layout_constraintTop_toBottomOf="@+id/zonaViewEleitorActivity" />
+
+    <TextView
+        android:id="@+id/estadoViewEleitorActivity"
+        android:layout_width="168dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewEstado"
+        app:layout_constraintTop_toBottomOf="@+id/secaoViewEleitorActivity" />
+
+    <TextView
+        android:id="@+id/prefeitoViewEleitorActivity"
+        android:layout_width="168dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/estadoViewEleitorActivity" />
+
+    <TextView
+        android:id="@+id/vereadorViewEleitorActivity"
+        android:layout_width="168dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/textViewVereador"
+        app:layout_constraintTop_toBottomOf="@+id/prefeitoViewEleitorActivity" />
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/Titulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewNome" />
+
+    <TextView
+        android:id="@+id/textViewZona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/Zona"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitulo" />
+
+    <TextView
+        android:id="@+id/textViewSecao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/Secao"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewZona" />
+
+    <TextView
+        android:id="@+id/textViewEstado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/Estados"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSecao" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/Prefeito"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEstado" />
+
+    <TextView
+        android:id="@+id/textViewVereador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/Vereador"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+</androidx.constraintlayout.widget.ConstraintLayout>
